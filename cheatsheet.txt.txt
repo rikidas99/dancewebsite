@@ -1,0 +1,29 @@
+        Git                                                 Github
+
+1.Git is a version control system.      | 1.Github provides web hosting using Git 
+                                        | where repositories can be put/saved.
+2.Git is possible without Github        | 2.Github isn't possible without Git.
+
+
+#.git config --global user.name Riki
+#.git config --global user.email "dashriteshdas@gmail.com"
+#.To create a blank file:-
+   touch .gitignore
+#.To initialize the project & create a .git repo(it is hidden):-
+   git init
+#.To put the content in the staging area:-
+   git add .
+#.To just put the files & folders into github:-
+   git commit -m "Initial commit"
+#.To know the current status that is it the ideal situation to publish the project
+   git status
+#.To transfer the contents of the selected project into the given ssh link
+   git remote add origin git@github.com:rikidas99/dancewebsite.git(ssh link)
+#.To provide account access:-
+   git push origin master
+#.To generate ssh keys:-
+   i. ssh-keygen -t rsa -b 4096 -C "dashriteahdas@gmail.com"
+   ii.cat /c/Users/dashr/.ssh/id_rsa.pub(created data)
+#.git remote add origin git@github.com:rikidas99/dancewebsite.git(ssh link)
+  git push origin master
+   
