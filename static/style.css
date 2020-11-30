@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#navbar{
+    background-color: black;
+    padding: 10px 12px;
+    font-family: monospace;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 0px;
+    font-weight: bold;
+    font-family: fantasy;
+    font-size: 23px;
+}
+
+
+
+#logo img{
+    height: 50px;    
+    margin-right: 12px;
+    /* filter: invert(1); to make the logo white coloured */
+
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 50px;
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+#navbar li a:hover{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 12px 50px;
+    color: crimson;
+}
+
+#introSection{
+   color: ghostwhite; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   background: center / cover no-repeat url('/static/dancepic.jpg'); 
+   height: 450px;
+   font-family: Texturina;
+   font-weight: bold;
+   font-size: 49px;
+   font-weight: bold;
+   padding-bottom: 70px;
+
+}
+
+#introSection div.small{
+    font-size: 30px;
+}
+
+#misionSection{
+    height: 355px;
+    background-color: white;
+    font-family: Texturina;
+    margin-bottom: 47px;
+    width: 86%;
+    margin: auto;
+    margin: auto;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 209px;
+    width: 29%;
+    margin: 25px;
+    padding: 11px;
+    display: inline-block;
+}
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+}
+
+
+  .card-box{
+    display: flex;
+    justify-content: space-between; 
+}
+
+ .card-img{
+    height: 131px;
+    padding: 0 7px;
+    margin:17px 222px 0 -4px;
+
+}
+
+.card-img img{
+    height: 100px;
+    float: left;
+ } 
+
+.card-content{
+    margin: 17px -2px 0px -201px;
+}
+.card-content p{
+  font-size: 20px;
+}
+
+
+
+
+
+
+#misionSection h1{
+    text-align: center;
+    padding-top: 0px;
+    font-size: 34px;
+}
+
+#sponsorsSection{
+   height: 320px;
+   background-color: whitesmoke;
+   font-family: Texturina;
+
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 12px;
+}
+
+#sponsors{
+    height: 227px;
+    margin: 14px 50px 0 50px;
+}
+
+.spImage{
+    height: 61px;
+    margin: 73px 150px 12px 142px;
+}
+
+#footer{
+    display: flex;
+    height: 61px;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+    

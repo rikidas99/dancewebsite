@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  style
+       include ../static/style.css  
+
+block content
+      section#introSection
+            div Welcome to the Riki's dance website
+            div.small Eat Sleep Dance Repeat
+
+      section#misionSection
+        h1 our mision 
+        div.card
+            h3 Dance Perfection  
+            div.card-box
+                div.card-img
+                   img(src="/static/img/dancepic3.jpg")
+                div.card-content    
+                   p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance The Way You Like 
+            div.card-box
+                div.card-img
+                   img(src="/static/img/dancepic3.jpg")
+                div.card-content    
+                   p This is the best dance academy of the universe
+
+        div.card
+            h3 Expert Teaching   
+            div.card-box
+                div.card-img
+                   img(src="/static/img/dancepic3.jpg")
+                div.card-content    
+                   p This is the best dance academy of the universe  
+
+      section#sponsorsSection
+          h2 our sponsors      
+          div#sponsors
+                img(src="/static/img/apple.png", alt="Sponsor Image", class="spImage")
+                img(src="/static/img/google.png", alt="Sponsor Image", class="spImage")
+                img(src="/static/img/facebook.png", alt="Sponsor Image", class="spImage")
+                img(src="/static/img/netflix.png", alt="Sponsor Image", class="spImage")
